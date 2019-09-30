@@ -1,0 +1,52 @@
+body{
+    margin:0px;
+    padding:0px;
+    background:mistyrose;
+    box-sizing: border-box;
+
+
+}
+nav{
+    display:flex;   
+    justify-content: space-around;
+    background-color:#665544;
+    align-items: center;
+    min-height: 9.4vh;
+    
+
+}
+div {
+    border: 1px solid #665544;
+}
+
+.logo {
+color:rgb(226, 226,226);
+width: 5%;
+position:absolute;
+text-transform:uppercase;
+letter-spacing: 5px;
+font-size:18px;
+}
+
+.nav-links{
+    display: flex;
+    width:"100";
+    justify-content: space-around;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    color:rgb(226, 226,226);
+    letter-spacing: 3px;
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left:30px;
+    padding-right:30px;
+    margin-right:10px;
+
+}
+div.a{
+    padding-left: 10px;
+}
