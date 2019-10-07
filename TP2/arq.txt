@@ -1,0 +1,18 @@
+Exercicio 5
+
+a) 
+//IDENTI[../CONCEL=" Amares "] 
+
+b)
+distinct-values(//CONCEL)
+
+c)
+//DESCRI[../CONCEL=" Montalegre "]
+
+d)
+count( //CONCEL= " Amares ")
+
+e)
+//IDENTI[../DESARQ/LIGA = " castros"] 
+
+

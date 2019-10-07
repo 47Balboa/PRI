@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/Users/shahzodyusupov/Desktop/pr.dtd">
+<pr>
+    <info>
+        <keyname>TP2</keyname>
+        <title>Trabalho prático 2</title>
+        <subtitle>Processamento e Representaçāo de Informação</subtitle>
+        <bgdate>Setembro 2019</bgdate>
+        <edate>Outubro 2019</edate>
+        <supervisor>href="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+    </info>
+    <workteam>
+        <member>
+            <nr>A82617</nr>
+            <name>Shahzod Yusupov</name>
+            <email>a82617@alunos.uminho.pt</email>
+        </member>
+    </workteam>
+    <abstract>
+        <paragraph>Este trabalho foi realizado no âmbito da Unidade Curricular de 
+            <b>Processamento e Representaçāo de Informação</b></paragraph>
+        <paragraph>Foi construído um documento um DTD que defina um <i>Project Record</i>
+            tendo como base o seguinte modelo: <link href="http://www4.di.uminho.pt/~jcr/XML/didac/xmldocs/PR.htm">página</link>
+        </paragraph>
+    </abstract>
+    <deliverables>
+        <deliverable url=""></deliverable>
+    </deliverables>
+</pr>
