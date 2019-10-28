@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE pr SYSTEM "file:/Users/shahzodyusupov/Desktop/PRI/TP4/pr/pr.dtd">
+<pr>
+    <meta>
+        <keyname>TPC4</keyname>
+        <title>Trabalho prático 4</title>
+        <subtitle>Processamento e Representaçāo de Informação</subtitle>
+        <bdate>Outubro 2019</bdate>
+        <edate>Outubro 2019</edate>
+        <supervisor >
+            <name> José Carlos Ramalho</name>
+            <email>jcr@di.uminho.pt </email>
+            <homepage> http://www4.di.uminho.pt/~jcr/ </homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>A82617</identifier>
+            <name>Shahzod Yusupov</name>
+            <email>a82617@alunos.uminho.pt</email>
+            <photo path="./PRI/TP4/pr/foto.jpg"/>
+        </member>
+    </workteam>
+    <abstract>
+        <p>Este trabalho foi realizado no âmbito da Unidade Curricular de 
+            <b>Processamento e Representaçāo de Informação</b></p>
+        <p>Tinha por objetivo a criação um servidor em <i>NodeJS</i> que recebesse pedidos através da porta <i>3333</i> e respondesse com a página html correspondente.</p>
+        <p>Tendo como fonte a informação presente no <xref url="../arq-son-EVO.xml">Arquivo Musical</xref>, que foi dividida em ficheiros <b>xml</b> separados, 
+        sendo que cada um contém informação de uma música. Para realizar a conversão dos ficheiros xml para html foi tambem criado uma stylesheet, <b>doc2html.</b></p>
+        <p>A linguagem utilizada para realizar o servidor foi o <b>Javascript</b>.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path ="https://github.com/47Balboa/PRI">Git</deliverable>
+        <deliverable path ="https://github.com/47Balboa/PRI/tree/master/TP4/pr/pr.xml">Project Record - XML</deliverable>
+        <deliverable path ="../arq-son-EVO.xml">Arquivo de músicas - XML</deliverable>
+        <deliverable path ="../cria-dataset.xsl">Stylesheet que separa o arquivo de músicas em documentos individuais</deliverable>
+        <deliverable path ="../data/doc2html.xsl">Stylesheet para gerar a página html correspondente de cada música</deliverable>
+        <deliverable path ="../servidor.js">Servidor</deliverable>
+    </deliverables>
+</pr>

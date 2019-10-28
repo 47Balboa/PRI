@@ -1,0 +1,11 @@
+{
+  "name": "tp4",
+  "version": "1.0.0",
+  "description": "Arquivo de musicas",
+  "main": "servidor.js",
+  "scripts": {
+    "test": "node servidor"
+  },
+  "author": "Shahzod Yusupov",
+  "license": "ISC"
+}
