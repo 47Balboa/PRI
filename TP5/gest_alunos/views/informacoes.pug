@@ -1,0 +1,47 @@
+extends layout
+block content
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-pale-red
+                h3 Informacoes do Aluno
+        .w3-card-4
+            table.w3-table-all
+                tr
+                    th Identificador
+                        td= aluno.id
+                tr
+                    th Nome
+                        td= aluno.nome
+                tr
+                    th Curso
+                        td= aluno.curso
+        .w3-card-4
+            header.w3-container.w3-pale-red
+                h3 Notas
+            table.w3-table-all
+                each nt in notas
+                    tr  
+                        th Indicador:
+                            td= nt.ind
+                        th Nota:
+                            td= nt.nota
+                        td
+                           
+        .w3-card-4
+            header.w3-container.w3-pale-red
+                h3 Adicionar nota
+            .w3-container
+                form.w3-container(action='/alunos/'+ aluno.id + '/notas' method='POST' )
+                    label
+                        b Indicador
+                    input.w3-input.w3-border.w3-light-grey(type="text", name="ind")
+                    label
+                        b Nota
+                    input.w3-input.w3-border.w3-light-grey(type="text", name="nota")
+                    input.w3-btn.w3-circle.w3-blue-grey.w3-margin(type='submit' value='Adicionar')
+        footer.w3-container.w3-pale-red
+            address.w3-right 
+                a(href="/alunos/")  Voltar à pagina principal
+                
+                   
+                    
