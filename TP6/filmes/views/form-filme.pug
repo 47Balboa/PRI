@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  .w3-container
+    .w3-card-4
+    header.w3-container.w3-teal
+        h1 Inserção de um filme
+    .w3-card-4
+      table.w3-table-all 
+        form.w3-container(action="/filmes" method="post")
+           
+            label Título:
+            input.w3-input(type="text" name="title")
+            label Ano:
+            input.w3-input(type="text" name="year")
+            label Elenco:
+            input.w3-input(type="text" name="cast")
+            label Géneros:
+            input.w3-input(type="text" name="genres")
+            input.w3-input(type="submit" value="Enviar")
+    footer.w3-container.w3-teal
+                    address.w3-right 
+                     a(href="/") Voltar à página principal 
