@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE pr SYSTEM "file:/Users/shahzodyusupov/Desktop/PRI/TP4/pr/pr.dtd">
+<pr>
+    <meta>
+        <keyname>TPC6</keyname>
+        <title>Trabalho prático 6</title>
+        <subtitle>Processamento e Representaçāo de Informação</subtitle>
+        <bdate>Novembro 2019</bdate>
+        <edate>Novembro 2019</edate>
+        <supervisor >
+            <name> José Carlos Ramalho</name>
+            <email>jcr@di.uminho.pt </email>
+            <homepage> http://www4.di.uminho.pt/~jcr/ </homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>A82617</identifier>
+            <name>Shahzod Yusupov</name>
+            <email>a82617@alunos.uminho.pt</email>
+            <photo path="./PRI/TP4/pr/foto.jpg"/>
+        </member>
+    </workteam>
+    <abstract>
+        <p>Este trabalho foi realizado no âmbito da Unidade Curricular de <b>Processamento e Representaçāo de Informação</b></p>
+        <p>Tinha por objetivo a criação de um servidor ,para gestão de filmes, com uma estrutura semelhante ao trabalho anterior,porém utiliza-se o <i>MongoDB</i> para a
+            gestão da base de dados.Para além disso, todos os pedidos passam por uma Api de dados, que comunica com a base de dados através do controller,
+            enviando a resposta recebida para a interface que comunica com o utilizador.
+        </p>
+        <p></p>
+    </abstract>
+    <deliverables>
+        <deliverable path ="https://github.com/47Balboa/PRI">Git</deliverable>
+        <deliverable path ="https://github.com/47Balboa/PRI/TP6/pr">ProjectRecord</deliverable>
+        <deliverable path ="https://github.com/47Balboa/PRI/TP6/filmes">Directoria com a implementação do servidor de páginas (Express</deliverable>
+        
+    </deliverables>
+</pr>
