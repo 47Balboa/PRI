@@ -25,12 +25,13 @@
     <abstract>
         <p>Este trabalho foi realizado no âmbito da Unidade Curricular de <b>Processamento e Representaçāo de Informação</b></p>
         <p>Tinha por objetivo a criação de um servidor ,para gestão de obras com a utilização <i>MongoDB</i> para a
-            gestão da base de dados.O principal objetivo era a implementação de uma API de dados
+            gestão da base de dados.O principal objetivo era a implementação de uma API de dados.
         </p>
         <p>O servidor responde a pedidos <i>GET</i> para <b>obras</b> e <b>compositores</b>, listando todas as obras e compositores,
-           respetivamente. No caso de ser para obras pode ainda filtrar,através de query strings, pelo <u>compositor</u>, 
-            <u>data de criação</u> e <u>período</u>. </p>
-
+           respetivamente. No caso de ser para obras pode ainda filtrar,através de <b>query strings</b>, pelo <u>compositor</u>,devolvendo 
+           as obras respetivas a esse compositor, <u>data de criação</u> e <u>período</u>. No caso dos compositores pode ainda filtrar
+           pelo nome, devolvendo tambem as obras respetivas a esse compositor. </p>
+          
     </abstract>
     <deliverables>
         <deliverable path ="https://github.com/47Balboa/PRI">Git</deliverable>
