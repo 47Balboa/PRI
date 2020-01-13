@@ -36,7 +36,7 @@ module.exports.inserir = filme => {
 
 module.exports.remover = id =>{
     return Filme
-        .findByIdAndRemove({_id:id})
+        .deleteOne({_id:id})
         .exec()
 }
 
