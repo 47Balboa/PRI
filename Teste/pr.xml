@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE pr SYSTEM "file:/Users/shahzodyusupov/Desktop/pr/pr.dtd">
+<pr>
+    <meta>
+        <keyname>Teste</keyname>
+        <title>Teste de avaliacao</title>
+        <subtitle>Processamento e Representaçāo de Informação</subtitle>
+        <bdate>Janeiro 2020</bdate>
+        <edate>Janeiro 2020</edate>
+        <supervisor >
+            <name> José Carlos Ramalho</name>
+            <email>jcr@di.uminho.pt </email>
+            <homepage> http://www4.di.uminho.pt/~jcr/ </homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>A82617</identifier>
+            <name>Shahzod Yusupov</name>
+            <email>a82617@alunos.uminho.pt</email>
+            <photo path="./PRI/TP6/pr/foto.jpg"/>
+        </member>
+    </workteam>
+    <abstract>
+      
+        <p>Para a pergunta 1 a persistencia de dados foi feita em MongoDB com o comando <b>mongoimport -d pubs -c pubs --jsonArray dataset.json</b></p>
+        <p>Para a pergunta 2 nao consegui acabar,nao pela dificuldade do problema em si mas porque achei confuso e nao percebi</p>
+        
+        <p></p>
+    </abstract>
+    <deliverables>
+        <deliverable path ="https://github.com/47Balboa/PRI">Git</deliverable>
+        
+    </deliverables>
+</pr>
